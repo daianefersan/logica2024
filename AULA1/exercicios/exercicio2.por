@@ -1,9 +1,13 @@
 programa
 {
-	
+	//Exercício 2
 	funcao inicio()
 	{
-		escreva("Olá Mundo")
+		inteiro Pedro 
+		escreva("Digite um valor:")
+		leia(Pedro)
+		escreva("Antecessor= ",Pedro-1,"\n") 
+		escreva("Sucessor= ",Pedro+1,"\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -11,7 +15,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 12; 
+ * @POSICAO-CURSOR = 97; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
